@@ -1,0 +1,154 @@
+.fashion__title{
+    max-width: 975px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fashion__link{
+        max-width: 155px;
+        min-height: 49px;
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        
+        background-color: #fff;
+        border: 1px solid rgba(128, 128, 128, 0.228);
+        border-radius:100px;
+        padding: 12px 20px; 
+            
+    }
+    .fashion__link:hover{
+        background-color: #FFD400;
+        border: none;
+       
+    }
+     
+    .fashion__link__style{
+        text-decoration: none;
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: center;
+        color: #262626;  
+    }
+
+    .fashion__wrapper{
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .fashion__list__style{
+        color: #98989A;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21.86px;
+        text-align: left;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .fashion__list__style:hover{
+        color: #1A1A1A;
+    }
+    .fashion__text{
+        box-sizing: border-box;
+        min-height: 70px;
+        padding: 24px 0;
+    }
+.fashion__list{
+    display: flex;
+    gap: 16px;
+}
+.fashion__position{
+    position: absolute;
+    z-index:2;
+    bottom:70px;
+    right: 5px;
+  
+ }
+.fashion__card{
+    width: 297px;
+    position: relative;
+    z-index: 1;
+  }
+
+.fashion__card__title{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;
+}
+.fashion__card__title:hover{
+background-color: #FFD400;
+width:160px;
+border-radius: 16px;
+padding:0 5px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.fashion__card__text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #4C4C4D; 
+}
+.fashion__card__text:hover{
+    background-color: #FFD400;
+    border-radius: 16px;
+    padding:0 5px;
+    width: 50px;
+    }
+
+.fashion__img{
+    img{
+        object-fit: cover;
+    }
+}
+.fashion__img:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}  
+.fashion__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+
+//1023 opisional
+//1440
+//992 opisional
+//768
+//552 opisional
+//376
+
+@media only screen and (max-width: 552px){
+    .fashion__wrapper{
+        margin-top: 103px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .fashion__title{
+        gap: 16px;
+    }
+}
+
+
+
+@media only screen and (max-width:1286px){
+.fashion__cards{
+  grid-template-columns: 1fr 1fr;
+    padding: 0 50px;
+ }
+
+ 
+}
+@media only screen and (max-width:625px){
+    .fashion__cards{
+        grid-template-columns: 1fr;
+     }
+}

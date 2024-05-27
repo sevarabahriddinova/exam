@@ -1,0 +1,28 @@
+ @import "./retses";
+ 
+//header
+
+@import "./header/nav";
+@import "./header/hero.scss";
+
+//main
+
+@import "./main/fashion";
+@import "./main/experience";
+@import "./main/love";
+@import "./main/questions";
+@import "./main/seamless";
+@import "./main/footer.scss";
+
+
+
+body{
+    font-family: "Manrope", sans-serif;
+}
+.container{
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
